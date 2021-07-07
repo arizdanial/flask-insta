@@ -31,3 +31,6 @@ def create():
 def destroy():
     logout_user()
     return redirect(url_for('sessions.new'))
+
+
+## testing new line 
